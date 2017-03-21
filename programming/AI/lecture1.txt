@@ -1,0 +1,34 @@
+PEAS (example: autonomous car)
+
+To design a rational agent, we must specifu the task environment,
+which consists of the following four things:
+
+1. Performance evaluation (follow traffic laws, minimize fuel/time, safety)
+2. Environment  (roads, pedestrians etc)
+3. Actuators  (what an agent can do: speakers, motors etc)
+4. Sensors    (cameras, sonars etc)
+
+Environment types: dimensions of complexity
+
+Dimension                     Possible values
+Observable?                   full (chess) vs partial (poker)
+Deterministic?                deterministic (chess) vs stochastic
+Episodic?                     episodic vs. sequential
+Static?                       static vs. dynamic (semidynamic)
+Discrete?                     discrete vs. continuous
+Number of Agents              single vs. multiple (competetive/cooperative)
+
+Quality of Solutions
+
+Classes of solutions
+* Optimal solution
+* satisficing solution
+* approximat optimal solution
+* probable solution
+
+Types of Agents
+* Simple reflex agent
+* Model-based reflex agent
+* Goal-based agent
+* Utility-based agent
+* Learning agent
